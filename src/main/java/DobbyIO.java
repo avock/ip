@@ -20,7 +20,7 @@ public class DobbyIO {
             }
             br.close();
         } catch (FileNotFoundException e) {
-            DobbyChat.noFileFound();
+
         } catch (IOException e) {
             e.printStackTrace();
         }
